@@ -1,3 +1,3 @@
-import * as color from './elements/color.js';
+import { Color } from './elements/color.js';
 
-Object.assign(quantum, color);
+Quantum.Color = Color;
