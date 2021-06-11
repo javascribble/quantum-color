@@ -10,7 +10,7 @@
         "live-server": "*"
     },
     "scripts": {
-        "build": "cd ../rollup-quantum-build && npm start ../quantum-color/source/main.js ../quantum-color/build",
+        "build": "cd ../rollup-quantum-build && npm start ../quantum-color/source ../quantum-color/build",
         "start": "live-server --open=/test/debug.html",
         "postversion": "npm publish --access public"
     },
